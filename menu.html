@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Our Menu — Bizou Cafe &amp; Grill</title>
+  <meta name="description" content="Explore the European-inspired menu at Bizou Cafe &amp; Grill. From artisan breakfast to gourmet grills, handcrafted pasta, and specialty coffee.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true"><div class="preloader-brand">BIZOU CAFE</div></div>
+
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="logo">BIZOU <span>CAFE &amp; GRILL</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html" class="active">Menu</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a>
+  </div>
+  <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- Page Hero -->
+<header class="page-hero" style="background-image: linear-gradient(rgba(10,8,6,0.85), rgba(10,8,6,0.9)), url('https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center;">
+  <div class="container reveal">
+    <span class="section-label">Gourmet Selection</span>
+    <h1>THE <span class="gold">MENU</span></h1>
+    <p>European-inspired cuisine, grilled to perfection.</p>
+  </div>
+</header>
+
+<!-- Seasonal/Featured Banner -->
+<section class="container section-pad">
+  <div class="seasonal-banner reveal" style="background-image: linear-gradient(rgba(10,8,6,0.8), rgba(10,8,6,0.9)), url('https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center;">
+    <h3>Signature Beverage — Iced Matcha Spritz</h3>
+    <p>Refreshing blend with your choice of Yuzu, Strawberry, Raspberry, or Lychee. A Bizou original crafted for the perfect afternoon escape.</p>
+  </div>
+</section>
+
+<!-- Category Tabs -->
+<div class="menu-tabs">
+  <div class="container">
+    <button class="tab-btn active" data-category="all">All</button>
+    <button class="tab-btn" data-category="breakfast">Breakfast</button>
+    <button class="tab-btn" data-category="grills">Grills &amp; Mains</button>
+    <button class="tab-btn" data-category="pasta">Pasta &amp; Pizza</button>
+    <button class="tab-btn" data-category="drinks">Beverages</button>
+    <button class="tab-btn" data-category="sweet">Sweet</button>
+  </div>
+</div>
+
+<!-- Menu Grid -->
+<main class="section-pad">
+  <div class="container">
+    <div class="menu-grid">
+
+      <!-- Breakfast -->
+      <div class="menu-card reveal" data-category="breakfast">
+        <div class="menu-card-front">
+          <span class="tag">Breakfast</span>
+          <h4>Turkish Eggs</h4>
+          <p>Poached eggs on garlic yogurt with chilli crisps and fresh herbs. Served with garlic bread.</p>
+          <div class="price">319</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="breakfast">
+        <div class="menu-card-front">
+          <span class="tag">Breakfast</span>
+          <h4>Bizou's Eggs Benny</h4>
+          <p>Poached eggs with bacon hollandaise, mushroom ricotta crumble, and wilted spinach on an English muffin.</p>
+          <div class="price">449</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="breakfast">
+        <div class="menu-card-front">
+          <span class="tag">Breakfast</span>
+          <h4>Chicken N' Waffles</h4>
+          <p>Buttermilk marinated southern-style fried chicken on a croissant waffle with pomodoro sauce and spiced honey.</p>
+          <div class="price">399</div>
+        </div>
+      </div>
+
+      <!-- Grills & Mains -->
+      <div class="menu-card reveal" data-category="grills">
+        <div class="menu-card-front">
+          <span class="tag">The Grill</span>
+          <h4>The Gatsby Burger</h4>
+          <p>Premium chicken or beef patty with Swiss Emmental, truffle mayo, and onions. Served with potato wedges.</p>
+          <div class="price">539</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="grills">
+        <div class="menu-card-front">
+          <span class="tag">The Grill</span>
+          <h4>Peri-peri Chicken Grill</h4>
+          <p>Grilled peri-peri marinated chicken with choice of 2 sides (Herb rice, vegetables, or mash).</p>
+          <div class="price">599</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="grills">
+        <div class="menu-card-front">
+          <span class="tag">Mains</span>
+          <h4>Braised Beef Ribs</h4>
+          <p>Slow-cooked ribs in red wine and mirepoix stew, served with mashed potatoes and demiglace.</p>
+          <div class="price">1259</div>
+        </div>
+      </div>
+
+      <!-- Pasta & Pizza -->
+      <div class="menu-card reveal" data-category="pasta">
+        <div class="menu-card-front">
+          <span class="tag">Pasta</span>
+          <h4>Mushroom Gnocchi</h4>
+          <p>Truffle mushroom cream enveloped potato dumplings with tomato compote and shiitake miso broth.</p>
+          <div class="price">456</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="pasta">
+        <div class="menu-card-front">
+          <span class="tag">Pizza</span>
+          <h4>Classic Marg Pizza</h4>
+          <p>Buffalo mozzarella, cherry tomatoes, basil, and balsamic glaze on a stone-baked thin crust.</p>
+          <div class="price">429</div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-card reveal" data-category="drinks">
+        <div class="menu-card-front">
+          <span class="tag">Coffee</span>
+          <h4>Cappuccino</h4>
+          <p>Perfectly balanced espresso and velvety microfoam. Crafted with our signature coffee blend.</p>
+          <div class="price">220</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="drinks">
+        <div class="menu-card-front">
+          <span class="tag">Iced Teas</span>
+          <h4>Rosemary Citrus Fizz</h4>
+          <p>Orange juice, Yuzu purée, Rosemary syrup, and Soda water. Refreshingly botanical.</p>
+          <div class="price">295</div>
+        </div>
+      </div>
+
+      <!-- Sweet -->
+      <div class="menu-card reveal" data-category="sweet">
+        <div class="menu-card-front">
+          <span class="tag">Desserts</span>
+          <h4>Red Velvet French Toast</h4>
+          <p>Milk bread dipped in red velvet egg custard with strawberry mascarpone and fresh berries.</p>
+          <div class="price">329</div>
+        </div>
+      </div>
+
+      <div class="menu-card reveal" data-category="sweet">
+        <div class="menu-card-front">
+          <span class="tag">Pastry</span>
+          <h4>Almond Croissant</h4>
+          <p>Twice-baked buttery croissant filled with almond frangipane and topped with slivered almonds.</p>
+          <div class="price">239</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">BIZOU <span>CAFE &amp; GRILL</span></a>
+        <p>European-inspired cuisine, grilled to perfection.</p>
+        <form class="newsletter-form" aria-label="Newsletter signup"><input type="email" placeholder="Your email address" aria-label="Email for newsletter"><button type="submit">Join</button></form>
+      </div>
+      <div class="footer-col"><h4>NAVIGATE</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="menu.html">Our Menu</a></li><li><a href="blog.html">Journal</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+      <div class="footer-col"><h4>EXPERIENCES</h4><ul><li><a href="menu.html#breakfast">Breakfast</a></li><li><a href="menu.html#grills">Grills</a></li><li><a href="menu.html#pasta">Pasta</a></li><li><a href="menu.html#sweet">Desserts</a></li></ul></div>
+      <div class="footer-col"><h4>FOLLOW</h4><div class="social-links"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="Youtube">YT</a><a href="#" aria-label="Tripadvisor">TR</a></div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Bizou Cafe &amp; Grill. All rights reserved.</p></div>
+  </div>
+</footer>
+
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
